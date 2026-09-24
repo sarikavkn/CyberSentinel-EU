@@ -1,0 +1,412 @@
+{
+  "catalog_version": "2026-09-01",
+  "frameworks": [
+    {
+      "id": "NIS2",
+      "name": "Directive (EU) 2022/2555 \u2014 NIS2",
+      "kind": "Directive",
+      "official_source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj",
+      "notes": "Member-State transposition must be tracked."
+    },
+    {
+      "id": "NIS2-IR-2024-2690",
+      "name": "Commission Implementing Regulation (EU) 2024/2690",
+      "kind": "Implementing Regulation",
+      "official_source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2690",
+      "notes": "Applies to specified digital infrastructure, ICT service management and digital provider categories."
+    },
+    {
+      "id": "GDPR",
+      "name": "Regulation (EU) 2016/679 \u2014 GDPR",
+      "kind": "Regulation",
+      "official_source": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "notes": "Security controls are risk-based and processing-context dependent."
+    },
+    {
+      "id": "DORA",
+      "name": "Regulation (EU) 2022/2554 \u2014 DORA",
+      "kind": "Regulation",
+      "official_source": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj",
+      "notes": "Financial-sector framework; Level 2 acts must be tracked separately."
+    },
+    {
+      "id": "CRA",
+      "name": "Regulation (EU) 2024/2847 \u2014 Cyber Resilience Act",
+      "kind": "Regulation",
+      "official_source": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj",
+      "notes": "Product security, vulnerability handling and reporting."
+    },
+    {
+      "id": "CSA",
+      "name": "Regulation (EU) 2019/881 \u2014 EU Cybersecurity Act",
+      "kind": "Regulation",
+      "official_source": "https://eur-lex.europa.eu/eli/reg/2019/881/oj",
+      "notes": "EU cybersecurity certification framework and ENISA mandate."
+    }
+  ],
+  "requirements": [
+    {
+      "framework": "NIS2",
+      "code": "NIS2-21-2-A",
+      "article": "Art. 21(2)(a)",
+      "title": "Policies on risk analysis and information system security",
+      "domain": "Governance & Risk",
+      "control_ids": [
+        "CTRL-RISK",
+        "CTRL-POLICY"
+      ]
+    },
+    {
+      "framework": "NIS2",
+      "code": "NIS2-21-2-B",
+      "article": "Art. 21(2)(b)",
+      "title": "Incident handling",
+      "domain": "Incident Management",
+      "control_ids": [
+        "CTRL-INCIDENT"
+      ]
+    },
+    {
+      "framework": "NIS2",
+      "code": "NIS2-21-2-C",
+      "article": "Art. 21(2)(c)",
+      "title": "Business continuity, backup, disaster recovery and crisis management",
+      "domain": "Resilience",
+      "control_ids": [
+        "CTRL-BCP",
+        "CTRL-BACKUP"
+      ]
+    },
+    {
+      "framework": "NIS2",
+      "code": "NIS2-21-2-D",
+      "article": "Art. 21(2)(d)",
+      "title": "Supply-chain security",
+      "domain": "Third-Party Risk",
+      "control_ids": [
+        "CTRL-TPRM"
+      ]
+    },
+    {
+      "framework": "NIS2",
+      "code": "NIS2-21-2-E",
+      "article": "Art. 21(2)(e)",
+      "title": "Security in acquisition, development and maintenance, including vulnerability handling and disclosure",
+      "domain": "Secure Development",
+      "control_ids": [
+        "CTRL-SDLC",
+        "CTRL-VULN"
+      ]
+    },
+    {
+      "framework": "NIS2",
+      "code": "NIS2-21-2-F",
+      "article": "Art. 21(2)(f)",
+      "title": "Policies and procedures to assess effectiveness of cybersecurity risk-management measures",
+      "domain": "Assurance",
+      "control_ids": [
+        "CTRL-ASSURE"
+      ]
+    },
+    {
+      "framework": "NIS2",
+      "code": "NIS2-21-2-G",
+      "article": "Art. 21(2)(g)",
+      "title": "Basic cyber hygiene practices and cybersecurity training",
+      "domain": "People & Awareness",
+      "control_ids": [
+        "CTRL-AWARE"
+      ]
+    },
+    {
+      "framework": "NIS2",
+      "code": "NIS2-21-2-H",
+      "article": "Art. 21(2)(h)",
+      "title": "Policies and procedures regarding cryptography and encryption",
+      "domain": "Cryptography",
+      "control_ids": [
+        "CTRL-CRYPTO"
+      ]
+    },
+    {
+      "framework": "NIS2",
+      "code": "NIS2-21-2-I",
+      "article": "Art. 21(2)(i)",
+      "title": "Human resources security, access control and asset management",
+      "domain": "Identity & Assets",
+      "control_ids": [
+        "CTRL-IAM",
+        "CTRL-ASSET",
+        "CTRL-HR"
+      ]
+    },
+    {
+      "framework": "NIS2",
+      "code": "NIS2-21-2-J",
+      "article": "Art. 21(2)(j)",
+      "title": "MFA or continuous authentication and secured communications where appropriate",
+      "domain": "Identity & Access",
+      "control_ids": [
+        "CTRL-MFA",
+        "CTRL-COMMS"
+      ]
+    },
+    {
+      "framework": "NIS2",
+      "code": "NIS2-23",
+      "article": "Art. 23",
+      "title": "Significant incident reporting workflow and evidence",
+      "domain": "Incident Reporting",
+      "control_ids": [
+        "CTRL-INCIDENT",
+        "CTRL-REPORT"
+      ]
+    },
+    {
+      "framework": "NIS2-IR-2024-2690",
+      "code": "IR-2.1",
+      "article": "Annex 2.1",
+      "title": "Documented cybersecurity risk-management framework and risk treatment plan",
+      "domain": "Governance & Risk",
+      "control_ids": [
+        "CTRL-RISK"
+      ]
+    },
+    {
+      "framework": "NIS2-IR-2024-2690",
+      "code": "IR-POLICY",
+      "article": "Annex",
+      "title": "Network and information systems security policy and topic-specific policies",
+      "domain": "Governance",
+      "control_ids": [
+        "CTRL-POLICY"
+      ]
+    },
+    {
+      "framework": "NIS2-IR-2024-2690",
+      "code": "IR-ACCESS",
+      "article": "Annex",
+      "title": "Access-control policies and lifecycle",
+      "domain": "Identity & Access",
+      "control_ids": [
+        "CTRL-IAM",
+        "CTRL-MFA"
+      ]
+    },
+    {
+      "framework": "NIS2-IR-2024-2690",
+      "code": "IR-ASSET",
+      "article": "Annex",
+      "title": "Asset-management controls",
+      "domain": "Asset Management",
+      "control_ids": [
+        "CTRL-ASSET"
+      ]
+    },
+    {
+      "framework": "GDPR",
+      "code": "GDPR-25",
+      "article": "Art. 25",
+      "title": "Data protection by design and by default",
+      "domain": "Privacy Engineering",
+      "control_ids": [
+        "CTRL-PRIVACY",
+        "CTRL-SDLC"
+      ]
+    },
+    {
+      "framework": "GDPR",
+      "code": "GDPR-30",
+      "article": "Art. 30",
+      "title": "Records of processing activities",
+      "domain": "Accountability",
+      "control_ids": [
+        "CTRL-ROPA"
+      ]
+    },
+    {
+      "framework": "GDPR",
+      "code": "GDPR-32-A",
+      "article": "Art. 32(1)(a)",
+      "title": "Pseudonymisation and encryption where appropriate",
+      "domain": "Privacy & Security",
+      "control_ids": [
+        "CTRL-CRYPTO",
+        "CTRL-PRIVACY"
+      ]
+    },
+    {
+      "framework": "GDPR",
+      "code": "GDPR-32-B",
+      "article": "Art. 32(1)(b)",
+      "title": "Ongoing confidentiality, integrity, availability and resilience",
+      "domain": "Security & Resilience",
+      "control_ids": [
+        "CTRL-CIA",
+        "CTRL-BCP"
+      ]
+    },
+    {
+      "framework": "GDPR",
+      "code": "GDPR-32-C",
+      "article": "Art. 32(1)(c)",
+      "title": "Timely restoration of availability and access after incident",
+      "domain": "Resilience",
+      "control_ids": [
+        "CTRL-BACKUP",
+        "CTRL-BCP"
+      ]
+    },
+    {
+      "framework": "GDPR",
+      "code": "GDPR-32-D",
+      "article": "Art. 32(1)(d)",
+      "title": "Regular testing, assessing and evaluating effectiveness of security measures",
+      "domain": "Assurance",
+      "control_ids": [
+        "CTRL-ASSURE"
+      ]
+    },
+    {
+      "framework": "GDPR",
+      "code": "GDPR-33",
+      "article": "Art. 33",
+      "title": "Personal-data breach notification workflow",
+      "domain": "Incident Reporting",
+      "control_ids": [
+        "CTRL-REPORT",
+        "CTRL-INCIDENT"
+      ]
+    },
+    {
+      "framework": "GDPR",
+      "code": "GDPR-35",
+      "article": "Art. 35",
+      "title": "Data protection impact assessment where required",
+      "domain": "Privacy Risk",
+      "control_ids": [
+        "CTRL-DPIA"
+      ]
+    },
+    {
+      "framework": "DORA",
+      "code": "DORA-ICT-RISK",
+      "article": "Chapter II",
+      "title": "ICT risk-management framework",
+      "domain": "ICT Risk",
+      "control_ids": [
+        "CTRL-RISK",
+        "CTRL-ASSET",
+        "CTRL-IAM"
+      ]
+    },
+    {
+      "framework": "DORA",
+      "code": "DORA-INC",
+      "article": "Chapter III / Art. 17+",
+      "title": "ICT-related incident management, classification and reporting",
+      "domain": "Incident Management",
+      "control_ids": [
+        "CTRL-INCIDENT",
+        "CTRL-REPORT"
+      ]
+    },
+    {
+      "framework": "DORA",
+      "code": "DORA-TEST",
+      "article": "Chapter IV",
+      "title": "Digital operational resilience testing",
+      "domain": "Resilience Testing",
+      "control_ids": [
+        "CTRL-ASSURE",
+        "CTRL-BCP"
+      ]
+    },
+    {
+      "framework": "DORA",
+      "code": "DORA-TPRM",
+      "article": "Chapter V",
+      "title": "ICT third-party risk management",
+      "domain": "Third-Party Risk",
+      "control_ids": [
+        "CTRL-TPRM"
+      ]
+    },
+    {
+      "framework": "DORA",
+      "code": "DORA-INFO",
+      "article": "Chapter VI",
+      "title": "Information-sharing arrangements where used",
+      "domain": "Threat Intelligence",
+      "control_ids": [
+        "CTRL-TI"
+      ]
+    },
+    {
+      "framework": "CRA",
+      "code": "CRA-ANNEX-I-P1",
+      "article": "Annex I, Part I",
+      "title": "Essential cybersecurity requirements for products with digital elements",
+      "domain": "Product Security",
+      "control_ids": [
+        "CTRL-PRODSEC",
+        "CTRL-SDLC"
+      ]
+    },
+    {
+      "framework": "CRA",
+      "code": "CRA-ANNEX-I-P2-1",
+      "article": "Annex I, Part II(1)",
+      "title": "Identify and document vulnerabilities and components, including SBOM",
+      "domain": "Vulnerability Management",
+      "control_ids": [
+        "CTRL-VULN",
+        "CTRL-SBOM"
+      ]
+    },
+    {
+      "framework": "CRA",
+      "code": "CRA-ANNEX-I-P2-2",
+      "article": "Annex I, Part II(2)",
+      "title": "Address and remediate vulnerabilities without delay and provide security updates",
+      "domain": "Vulnerability Management",
+      "control_ids": [
+        "CTRL-VULN",
+        "CTRL-PATCH"
+      ]
+    },
+    {
+      "framework": "CRA",
+      "code": "CRA-ANNEX-I-P2-3",
+      "article": "Annex I, Part II(3)",
+      "title": "Effective and regular product security tests and reviews",
+      "domain": "Product Assurance",
+      "control_ids": [
+        "CTRL-ASSURE",
+        "CTRL-PRODSEC"
+      ]
+    },
+    {
+      "framework": "CRA",
+      "code": "CRA-14",
+      "article": "Art. 14",
+      "title": "Manufacturer reporting workflow for actively exploited vulnerabilities and severe incidents",
+      "domain": "Incident Reporting",
+      "control_ids": [
+        "CTRL-REPORT",
+        "CTRL-VULN"
+      ]
+    },
+    {
+      "framework": "CSA",
+      "code": "CSA-CERT",
+      "article": "Title III",
+      "title": "EU cybersecurity certification framework tracking",
+      "domain": "Certification",
+      "control_ids": [
+        "CTRL-CERT"
+      ]
+    }
+  ],
+  "legal_notice": "Compliance-management support only; no legal advice, certification or guarantee of compliance."
+}

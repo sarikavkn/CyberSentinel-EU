@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: cybersentinel
+      POSTGRES_USER: cybersentinel
+      POSTGRES_PASSWORD: change-me
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql+psycopg://cybersentinel:change-me@db:5432/cybersentinel
+      CYBERSENTINEL_SESSION_SECRET: replace-me-with-a-long-random-secret
+      CYBERSENTINEL_COOKIE_SECURE: "0"
+    depends_on:
+      - db
+volumes:
+  pgdata:

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "CTRL-RISK",
+    "name": "Cybersecurity risk-management process",
+    "domain": "Governance & Risk"
+  },
+  {
+    "id": "CTRL-POLICY",
+    "name": "Security policy lifecycle",
+    "domain": "Governance"
+  },
+  {
+    "id": "CTRL-INCIDENT",
+    "name": "Incident detection, handling and evidence preservation",
+    "domain": "Incident Management"
+  },
+  {
+    "id": "CTRL-REPORT",
+    "name": "Regulatory incident/breach reporting workflow",
+    "domain": "Incident Reporting"
+  },
+  {
+    "id": "CTRL-BCP",
+    "name": "Business continuity and disaster recovery",
+    "domain": "Resilience"
+  },
+  {
+    "id": "CTRL-BACKUP",
+    "name": "Backup, restore and recovery testing",
+    "domain": "Resilience"
+  },
+  {
+    "id": "CTRL-TPRM",
+    "name": "Supplier and ICT third-party risk management",
+    "domain": "Third-Party Risk"
+  },
+  {
+    "id": "CTRL-SDLC",
+    "name": "Secure acquisition, development and maintenance",
+    "domain": "Secure Development"
+  },
+  {
+    "id": "CTRL-VULN",
+    "name": "Vulnerability handling and disclosure",
+    "domain": "Vulnerability Management"
+  },
+  {
+    "id": "CTRL-ASSURE",
+    "name": "Security testing and control-effectiveness assurance",
+    "domain": "Assurance"
+  },
+  {
+    "id": "CTRL-AWARE",
+    "name": "Cyber hygiene and security-awareness programme",
+    "domain": "People"
+  },
+  {
+    "id": "CTRL-CRYPTO",
+    "name": "Cryptography and key-management governance",
+    "domain": "Cryptography"
+  },
+  {
+    "id": "CTRL-IAM",
+    "name": "Identity and access lifecycle management",
+    "domain": "Identity & Access"
+  },
+  {
+    "id": "CTRL-MFA",
+    "name": "MFA/continuous-authentication governance",
+    "domain": "Identity & Access"
+  },
+  {
+    "id": "CTRL-ASSET",
+    "name": "Asset inventory, ownership and criticality",
+    "domain": "Asset Management"
+  },
+  {
+    "id": "CTRL-HR",
+    "name": "Human-resources security controls",
+    "domain": "People"
+  },
+  {
+    "id": "CTRL-COMMS",
+    "name": "Secured communications and emergency communications",
+    "domain": "Communications"
+  },
+  {
+    "id": "CTRL-PRIVACY",
+    "name": "Privacy engineering and data minimisation",
+    "domain": "Privacy"
+  },
+  {
+    "id": "CTRL-ROPA",
+    "name": "Records of processing activities management",
+    "domain": "Privacy"
+  },
+  {
+    "id": "CTRL-CIA",
+    "name": "Confidentiality, integrity, availability and resilience controls",
+    "domain": "Security"
+  },
+  {
+    "id": "CTRL-DPIA",
+    "name": "DPIA workflow and risk treatment",
+    "domain": "Privacy Risk"
+  },
+  {
+    "id": "CTRL-TI",
+    "name": "Threat-intelligence and information-sharing governance",
+    "domain": "Threat Intelligence"
+  },
+  {
+    "id": "CTRL-PRODSEC",
+    "name": "Product security lifecycle",
+    "domain": "Product Security"
+  },
+  {
+    "id": "CTRL-SBOM",
+    "name": "Software bill of materials governance",
+    "domain": "Product Security"
+  },
+  {
+    "id": "CTRL-PATCH",
+    "name": "Security update and patch-management lifecycle",
+    "domain": "Vulnerability Management"
+  },
+  {
+    "id": "CTRL-CERT",
+    "name": "Certification scheme tracking and evidence mapping",
+    "domain": "Certification"
+  },
+  {
+    "id": "CTRL-AUDIT",
+    "name": "Immutable audit trail and accountability",
+    "domain": "Governance"
+  },
+  {
+    "id": "CTRL-EVIDENCE",
+    "name": "Evidence collection, integrity and review",
+    "domain": "Assurance"
+  }
+]
