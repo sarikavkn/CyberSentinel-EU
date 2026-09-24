@@ -8,7 +8,9 @@ CyberSentinel EU is a functional portfolio application that explores how cyberse
 
 ## 🎥 Demo
 
-A walkthrough is included in [`demo/CyberSentinel_EU_Tool_Walkthrough.mp4`](demo/CyberSentinel_EU_Tool_Walkthrough.mp4).
+▶️ **[Watch the CyberSentinel EU Demo](CyberSentinelEU%20Tool%20Walkthrough.mp4)**
+
+*walkthrough demonstrating the platform's main cybersecurity compliance and risk-management features.*
 
 ## What the application demonstrates
 
